@@ -17,7 +17,7 @@ class LoginActivity : ComponentActivity() {
         setContentView(binding.root)
 
         binding.bSignInlogin.setOnClickListener {
-            val intentHome = Intent(this, MenuActivity::class.java)
+            val intentHome = Intent(this, PilihanActivity::class.java)
             startActivity(intentHome)
 
             Toast.makeText(this, "Login berhasil!", Toast.LENGTH_SHORT).show()

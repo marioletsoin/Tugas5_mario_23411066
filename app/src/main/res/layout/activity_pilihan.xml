@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#17171f"
+    tools:context=".PilihanActivity">
+
+    <Button
+        android:id="@+id/bsendemailmenu2"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bpilihanemail"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVsendemailmenu3"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/bsendemailmenu3"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bpilihanrcview"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bsendemailmenu2"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/tVsendemailmenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/title_activity_pilihan"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iVbackmenu2"
+        tools:ignore="ContentDescription"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/bback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewmenu2"
+        android:layout_width="500dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFAA"
+        app:layout_constraintBottom_toBottomOf="@+id/bsendemailmenu3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVsendemailmenu3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="VisualLintBounds" />
+</androidx.constraintlayout.widget.ConstraintLayout>

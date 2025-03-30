@@ -45,7 +45,22 @@
     <string name="mehsubject">Subject</string>
     <string name="mehmessage">Message</string>
     <string name="mebsend">Send Email</string>
+    <string name="mebrcview">Recycler View</string>
     <string name="tVsendemailmenu">Send an Email</string>
     <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_rcview">RcviewActivity</string>
+    <string name="title_activity_item_data">ItemData</string>
+    <string name="title_activity_my_adapter">MyAdapter</string>
     <!--  activity_menu selesai  -->
+
+    <!--  activity_rcview  -->
+    <string name="tVteksrcview">List of Football Players</string>
+    <!--  activity_rcview selesai  -->
+
+    <!--  activity_pilihan  -->
+    <string name="bpilihanemail">Send an Email</string>
+    <string name="bpilihanrcview">Recycler View</string>
+    <string name="title_activity_pilihan">MENU</string>
+    <!--  activity_pilihan selesai  -->
+
 </resources>

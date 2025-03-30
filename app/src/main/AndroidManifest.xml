@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<!--
-==============================================
-  Project    : Tugas3
-  Author     : Mario K Letsoin
-  Created on : 23/03/2025
-  Version    : 2.0
-  Description: Aplikasi untuk mengirim email
-  ==============================================
-  Powered by Kotlin & Passion
-  Keep coding, keep growing!
-  ==============================================
--->
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -24,6 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TUGAS2"
         tools:targetApi="31">
+        <activity
+            android:name=".PilihanActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pilihan"
+            android:theme="@style/Theme.TUGAS2" />
+        <activity
+            android:name=".MyAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_my_adapter"
+            android:theme="@style/Theme.TUGAS2" />
+        <activity
+            android:name=".ItemData"
+            android:exported="false"
+            android:label="@string/title_activity_item_data"
+            android:theme="@style/Theme.TUGAS2" />
+        <activity
+            android:name=".RcviewActivity"
+            android:exported="false"
+            android:label="@string/title_activity_rcview"
+            android:theme="@style/Theme.TUGAS2" />
         <activity
             android:name=".MenuActivity"
             android:exported="false"

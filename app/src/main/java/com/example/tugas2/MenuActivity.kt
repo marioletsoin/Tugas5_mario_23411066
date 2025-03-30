@@ -17,7 +17,7 @@ class MenuActivity : ComponentActivity() {
 
         // Tombol kembali ke MainActivity
         binding.iVbackmenu.setOnClickListener {
-            val intentHome = Intent(this, LoginActivity::class.java)
+            val intentHome = Intent(this, PilihanActivity::class.java)
             startActivity(intentHome)
         }
 
