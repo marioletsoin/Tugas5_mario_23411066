@@ -2,7 +2,6 @@ package com.example.tugas2
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import com.example.tugas2.databinding.ActivityPilihanBinding
 

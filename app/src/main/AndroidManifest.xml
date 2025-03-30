@@ -18,15 +18,17 @@
             android:label="@string/title_activity_pilihan"
             android:theme="@style/Theme.TUGAS2" />
         <activity
-            android:name=".MyAdapter"
+            android:name=".MyAdapterActivity"
             android:exported="false"
             android:label="@string/title_activity_my_adapter"
-            android:theme="@style/Theme.TUGAS2" />
+            android:theme="@style/Theme.TUGAS2"
+            tools:ignore="Instantiatable" />
         <activity
-            android:name=".ItemData"
+            android:name=".ItemDataActivity"
             android:exported="false"
             android:label="@string/title_activity_item_data"
-            android:theme="@style/Theme.TUGAS2" />
+            android:theme="@style/Theme.TUGAS2"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".RcviewActivity"
             android:exported="false"

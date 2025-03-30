@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MyAdapter (private val namaList : ArrayList<ItemData>): RecyclerView.Adapter<MyAdapter.MyViewHolder>(){
+class MyAdapterActivity (private val namaList : ArrayList<ItemDataActivity>): RecyclerView.Adapter<MyAdapterActivity.MyViewHolder>(){
 
     class  MyViewHolder (itemData: View) : RecyclerView.ViewHolder (itemData){
         val gambar : ImageView = itemData.findViewById(R.id.imageview2)
@@ -18,7 +18,7 @@ class MyAdapter (private val namaList : ArrayList<ItemData>): RecyclerView.Adapt
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val itemData = LayoutInflater.from(parent.context).inflate(R.layout.item_data,parent,false)
+        val itemData = LayoutInflater.from(parent.context).inflate(R.layout.activity_item_data,parent,false)
         return MyViewHolder(itemData)
     }
 
