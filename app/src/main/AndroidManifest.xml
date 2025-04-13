@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,23 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TUGAS2"
         tools:targetApi="31">
+
         <activity
             android:name=".PilihanActivity"
             android:exported="false"
             android:label="@string/title_activity_pilihan"
             android:theme="@style/Theme.TUGAS2" />
-        <activity
-            android:name=".MyAdapterActivity"
-            android:exported="false"
-            android:label="@string/title_activity_my_adapter"
-            android:theme="@style/Theme.TUGAS2"
-            tools:ignore="Instantiatable" />
-        <activity
-            android:name=".ItemDataActivity"
-            android:exported="false"
-            android:label="@string/title_activity_item_data"
-            android:theme="@style/Theme.TUGAS2"
-            tools:ignore="Instantiatable" />
+        <!-- Hapus deklarasi MyAdapterActivity dan ItemDataActivity karena bukan Activity -->
         <activity
             android:name=".RcviewActivity"
             android:exported="false"
@@ -54,6 +43,12 @@
             android:exported="false"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.TUGAS2" />
+        <!-- Deklarasi DetailActivity yang benar -->
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:label="Detail Activity"
+            android:theme="@style/Theme.TUGAS2" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -61,7 +56,6 @@
             android:theme="@style/Theme.TUGAS2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
